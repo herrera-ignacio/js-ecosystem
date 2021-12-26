@@ -7,7 +7,7 @@ List of curated tooling for React projects.
   - [Boilerplates](#boilerplates)
   - [Data Layer](#data-layer)
   - [Data Visualization](#data-visualization)
-  - [General Purpose](#general-purpose)
+  - [Utilities](#utilities)
   - [Guidelines & Examples](#guidelines--examples)
   - [Testing](#testing)
   - [UI Components](#ui-components)
@@ -36,8 +36,9 @@ List of curated tooling for React projects.
 * [react-d3](https://github.com/esbullington/react-d3)
 * [react-vis](https://github.com/uber/react-vis)
 
-## General Purpose
+## Utilities
 
+* [inversify-props](https://github.com/CKGrafico/inversify-props) - inject your dependencies with property decorators in the components
 * [react-router](https://github.com/remix-run/react-router)
 * [react-helmet](https://github.com/nfl/react-helmet)
 * [react-styleguidist](https://github.com/styleguidist/react-styleguidist)

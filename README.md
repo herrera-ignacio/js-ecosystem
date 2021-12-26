@@ -7,11 +7,16 @@ A curated list of *open source* and free tooling for js projects
 - [js-ecosystem](#js-ecosystem)
   - [CLIs](#clis)
   - [Data Layer & State Management](#data-layer--state-management)
+    - [ORMs](#orms)
     - [Redux](#redux)
+    - [Graphql](#graphql)
   - [Data Visualization](#data-visualization)
   - [Development (Monitoring, Clustering, CI/CD)](#development-monitoring-clustering-cicd)
   - [Frameworks](#frameworks)
-    - [Graphql](#graphql)
+    - [Backend - HTTP Web Applications](#backend---http-web-applications)
+    - [Dependency Injection](#dependency-injection)
+    - [Frontend - UI](#frontend---ui)
+  - [Functional Programming](#functional-programming)
   - [Guidelines & Examples](#guidelines--examples)
   - [Immutability](#immutability)
   - [Networking](#networking)
@@ -32,11 +37,15 @@ A curated list of *open source* and free tooling for js projects
 
 * [neo4j](https://neo4j.com/)
 * [RxJs](https://rxjs.dev/)
-* [Mongoose](https://github.com/Automattic/mongoose) - MongoDB ORM
+* [MobX](https://mobx.js.org/README.html) - state management applying TFRP (transparent functional reactive programming)
 * [Node-Redis](https://github.com/redis/node-redis) - high performance Redis client
+* [protobuf](https://github.com/protobufjs/protobuf.js) - Protocol Buffers implementation for serializing data
+
+### ORMs
+
 * [Sequelize](https://github.com/sequelize/sequelize) - Active Record promise-based ORM
 * [TypeORM](https://github.com/typeorm/typeorm) - Active Record & Data Mapper ORM
-* [protobuf](https://github.com/protobufjs/protobuf.js) - Protocol Buffers implementation for serializing data
+* [Mongoose](https://github.com/Automattic/mongoose) - MongoDB ORM
 
 ### Redux
 
@@ -54,6 +63,12 @@ A curated list of *open source* and free tooling for js projects
 * [Redux Toolkit](https://redux-toolkit.js.org/)
 * Examples
   * [redux-essentials-counter-example](https://github.com/reduxjs/redux-essentials-counter-example)
+
+### Graphql
+
+* [Apollo](https://www.apollographql.com/pricing)
+  * [Rover CLI](https://www.apollographql.com/docs/rover/)
+* [graphql-yoga](https://github.com/dotansimha/graphql-yoga)
 
 ## Data Visualization
 
@@ -78,22 +93,34 @@ A curated list of *open source* and free tooling for js projects
 
 ## Frameworks
 
-* [Angular](https://github.com/angular/angular) - mobile and desktop web applications framework
-* [Connect](https://github.com/senchalabs/connect) - extensible HTTP server framework using middlewares
 * [Elasticsearch](https://github.com/elastic/elasticsearch-js) - distributed, RESTful search and analytics engine
+* [Ts.ED](https://github.com/tsedio/tsed) - decorators and guidelines
+* [Typescript](https://www.npmjs.com/package/typescript) - Language extension for application-scale JS
+
+### Backend - HTTP Web Applications 
+
+* [Connect](https://github.com/senchalabs/connect) - extensible HTTP server framework using middlewares
 * [Express](https://expressjs.com/) - webApp framework built upon Connect
-* [Jade](https://www.npmjs.com/package/jade) - template engine
-* [React](https://reactjs.org/) - library for building user interfaces
 * [Restify](https://github.com/restify/node-restify) - Connect-style middleware for building REST APIs
 * [Sails](https://github.com/balderdashy/sails) - built on Express, Socket.io and Waterline ORM
-* [Typescript](https://www.npmjs.com/package/typescript) - Language extension for application-scale JS
-* [Koa](https://www.npmjs.com/package/koa) - expressive HTTP middleware framework
 
-### Graphql
+### Dependency Injection
 
-* [Apollo](https://www.apollographql.com/pricing)
-  * [Rover CLI](https://www.apollographql.com/docs/rover/)
-* [graphql-yoga](https://github.com/dotansimha/graphql-yoga)
+* [TypeDI](https://github.com/typestack/typedi) - dependency injection tool
+* [Injex](https://github.com/uditalias/injex) - decorated & pluggable dependency-injection
+* [InversifyJS](https://github.com/inversify/InversifyJS) - powerful and lightweight inversion of control container
+
+### Frontend - UI
+
+* [Angular](https://github.com/angular/angular) - mobile and desktop web applications framework
+* [Jade](https://www.npmjs.com/package/jade) - template engine
+* [React](https://reactjs.org/) - library for building user interfaces
+
+## Functional Programming
+
+* [fp-ts](https://github.com/gcanti/fp-ts) - typed functional programming
+* [Rambda](https://ramdajs.com/docs/) - functional programming style (see [Cookbock](https://github.com/ramda/ramda/wiki/Cookbook))
+* [underscore](https://underscorejs.org/) - useful functional programming helpers 
 
 ## Guidelines & Examples
 
@@ -153,7 +180,5 @@ A curated list of *open source* and free tooling for js projects
 * [node-notifier](https://github.com/mikaelbr/node-notifier) - cross platform native notifications
 * [safe-regex](https://www.npmjs.com/package/safe-regex) - detect potentially catastrophic exponential-time regular expressions
 * [uglify](https://www.npmjs.com/package/uglify-js) - JS parser, minifier, compressor and beautifier toolkit
-* [underscore](https://underscorejs.org/) - useful functional programming helpers
 * [uuid](https://www.npmjs.com/package/uuid) - creation of RFC4122 UUIDs
 * [vuln-regex-detector](https://github.com/davisjam/vuln-regex-detector) - detect regexes that could lead to catastrophic backtracking
-
