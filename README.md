@@ -2,7 +2,7 @@
 
 A curated list of *open source* and free tooling for js projects
 
-> For framework-related tools please check [react ecosystem](./react.md) or [express ecosystem](./express.md).
+> For framework-related tools please check [React ecosystem](./react.md) or [Express ecosystem](./express.md).
 
 - [js-ecosystem](#js-ecosystem)
   - [CLIs](#clis)
