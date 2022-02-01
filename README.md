@@ -7,12 +7,14 @@ A curated list of *open source* and free tooling for js projects
 - [js-ecosystem](#js-ecosystem)
   - [CLIs](#clis)
   - [Data Layer & State Management](#data-layer--state-management)
+    - [Side Effects - Data Fetching](#side-effects---data-fetching)
     - [ORMs](#orms)
     - [Redux](#redux)
     - [Graphql](#graphql)
   - [Data Visualization](#data-visualization)
   - [Development (Monitoring, Clustering, CI/CD)](#development-monitoring-clustering-cicd)
   - [Frameworks](#frameworks)
+    - [React](#react)
     - [Backend - HTTP Web Applications](#backend---http-web-applications)
     - [Dependency Injection](#dependency-injection)
     - [Frontend - UI](#frontend---ui)
@@ -41,6 +43,11 @@ A curated list of *open source* and free tooling for js projects
 * [Node-Redis](https://github.com/redis/node-redis) - high performance Redis client
 * [protobuf](https://github.com/protobufjs/protobuf.js) - Protocol Buffers implementation for serializing data
 
+### Side Effects - Data Fetching
+
+* [React Query](https://react-query.tanstack.com/)
+* [SWR](https://swr.vercel.app/)
+
 ### ORMs
 
 * [Sequelize](https://github.com/sequelize/sequelize) - Active Record promise-based ORM
@@ -51,6 +58,7 @@ A curated list of *open source* and free tooling for js projects
 
 > Official [Redux site](https://redux.js.org/) and [Redux style guide](https://redux.js.org/style-guide/style-guide)
 
+* [Async Logic](https://redux.js.org/tutorials/essentials/part-5-async-logic)
 * [Redux DevTools](https://github.com/reduxjs/redux-devtools)
   * [d3-state-visualizer](https://github.com/reduxjs/d3-state-visualizer)
 * [Redux Saga](https://redux-saga.js.org/) - side effect manager based on ES6 generators
@@ -61,8 +69,11 @@ A curated list of *open source* and free tooling for js projects
   * [ducks-middleware](https://github.com/drpicox/ducks-middleware)
   * [ducks-reducer](https://github.com/drpicox/ducks-reducer)
 * [Redux Toolkit](https://redux-toolkit.js.org/)
+  * [RTK Query](https://redux.js.org/tutorials/essentials/part-7-rtk-query-basics) ([overview](https://redux-toolkit.js.org/rtk-query/overview))
+* [Performance & normalization](https://redux.js.org/tutorials/essentials/part-6-performance-normalization)
 * Examples
   * [redux-essentials-counter-example](https://github.com/reduxjs/redux-essentials-counter-example)
+
 
 ### Graphql
 
@@ -96,6 +107,12 @@ A curated list of *open source* and free tooling for js projects
 * [Elasticsearch](https://github.com/elastic/elasticsearch-js) - distributed, RESTful search and analytics engine
 * [Ts.ED](https://github.com/tsedio/tsed) - decorators and guidelines
 * [Typescript](https://www.npmjs.com/package/typescript) - Language extension for application-scale JS
+
+### React
+
+* [awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks)
+* [useHooks(🐠)](https://usehooks.com/)
+* [Hooks reference](https://reactjs.org/docs/hooks-reference.html)
 
 ### Backend - HTTP Web Applications 
 
