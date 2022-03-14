@@ -5,6 +5,7 @@ A curated list of *open source* and free tooling for js projects
 > For framework-related tools please check [React ecosystem](./react.md) or [Express ecosystem](./express.md).
 
 - [js-ecosystem](#js-ecosystem)
+  - [Profiling & Benchmarking](#profiling--benchmarking)
   - [CLIs](#clis)
   - [Data Layer & State Management](#data-layer--state-management)
     - [Side Effects - Data Fetching](#side-effects---data-fetching)
@@ -26,6 +27,10 @@ A curated list of *open source* and free tooling for js projects
   - [Styling](#styling)
   - [Testing & Automation](#testing--automation)
   - [Utility](#utility)
+
+## Profiling & Benchmarking
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
 ## CLIs
 
