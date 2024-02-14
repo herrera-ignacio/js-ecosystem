@@ -149,6 +149,7 @@ A curated list of *open source* and free tooling for js projects
 
 - [Connect](https://github.com/senchalabs/connect) - extensible HTTP server framework using middlewares
 - [Express](https://expressjs.com/) - webApp framework built upon Connect
+  - [express-validator](https://express-validator.github.io/docs) - Middlewares that wrap validator.js.
 - [Restify](https://github.com/restify/node-restify) - Connect-style middleware for building REST APIs
 - [Sails](https://github.com/balderdashy/sails) - built on Express, Socket.io and Waterline ORM
 
